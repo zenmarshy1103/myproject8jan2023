@@ -1,0 +1,29 @@
+/* footer {
+    height: 200px;
+    background-color: black;
+} */
+
+.button {
+    height: 50px;
+    width: 140px;
+    background-color: red;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid white;
+    /* transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out; */
+    transition: background-color 500ms ease-out;
+}
+
+/*Psudo Class*/
+.button:hover {
+    background-color: #22e;
+    /* border: 2px solid red;
+    color: #f33; */
+
+}
+
+
