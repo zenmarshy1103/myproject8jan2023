@@ -1,5 +1,22 @@
+/*Create you own fonts*/
+@font-face{
+    /* font-family:'My Custom Font'; */
+    font-family: 'PTSans-Regular';
+    src: url('../fonts/PTSans-Regular.ttf') ;
+}
+
 h2 {
     text-align: center;
     text-transform: capitalize;
     font-size: 3em;
+}
+
+h1 {
+    color: #f77;
+    /*2 x 16px(font in html) = 32px*/
+    font-size: 2rem;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'PTSans-Regular', Arial, sans-serif;
+    
 }
